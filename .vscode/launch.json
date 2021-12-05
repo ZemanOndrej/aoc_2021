@@ -1,0 +1,38 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "day1",
+			"args": [],
+			"program": "${workspaceFolder}/day1/target/debug/day1",
+			"windows": {
+			  "program": "${workspaceFolder}/day1/target/debug/day1.exe"
+			},
+			"cwd": "${workspaceFolder}/day1",
+			"stopOnEntry": false,
+			"sourceLanguages": [
+			  "rust"
+			]
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "day2",
+			"args": [],
+			"program": "${workspaceFolder}/day2/target/debug/day2",
+			"windows": {
+			  "program": "${workspaceFolder}/day2/target/debug/day2.exe"
+			},
+			"cwd": "${workspaceFolder}/day2",
+			"stopOnEntry": false,
+			"sourceLanguages": [
+			  "rust"
+			]
+		}
+	]
+}
