@@ -48,6 +48,21 @@
 			"sourceLanguages": [
 			  "rust"
 			]
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "day4",
+			"args": [],
+			"program": "${workspaceFolder}/day4/target/debug/day4",
+			"windows": {
+			  "program": "${workspaceFolder}/day4/target/debug/day4.exe"
+			},
+			"cwd": "${workspaceFolder}/day4",
+			"stopOnEntry": false,
+			"sourceLanguages": [
+			  "rust"
+			]
 		}
 	]
 }
