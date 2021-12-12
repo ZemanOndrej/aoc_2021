@@ -33,6 +33,21 @@
 			"sourceLanguages": [
 			  "rust"
 			]
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "day3",
+			"args": [],
+			"program": "${workspaceFolder}/day3/target/debug/day3",
+			"windows": {
+			  "program": "${workspaceFolder}/day3/target/debug/day3.exe"
+			},
+			"cwd": "${workspaceFolder}/day3",
+			"stopOnEntry": false,
+			"sourceLanguages": [
+			  "rust"
+			]
 		}
 	]
 }
