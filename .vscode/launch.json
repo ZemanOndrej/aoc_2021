@@ -63,6 +63,21 @@
 			"sourceLanguages": [
 			  "rust"
 			]
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "day5",
+			"args": [],
+			"program": "${workspaceFolder}/day5/target/debug/day5",
+			"windows": {
+			  "program": "${workspaceFolder}/day5/target/debug/day5.exe"
+			},
+			"cwd": "${workspaceFolder}/day5",
+			"stopOnEntry": false,
+			"sourceLanguages": [
+			  "rust"
+			]
 		}
 	]
 }
