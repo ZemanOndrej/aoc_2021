@@ -1,4 +1,3 @@
-extern crate queues;
 
 use std::fs;
 
