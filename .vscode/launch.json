@@ -93,6 +93,36 @@
 			"sourceLanguages": [
 			  "rust"
 			]
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "day7",
+			"args": [],
+			"program": "${workspaceFolder}/day7/target/debug/day7",
+			"windows": {
+			  "program": "${workspaceFolder}/day7/target/debug/day7.exe"
+			},
+			"cwd": "${workspaceFolder}/day7",
+			"stopOnEntry": false,
+			"sourceLanguages": [
+			  "rust"
+			]
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"name": "day8",
+			"args": [],
+			"program": "${workspaceFolder}/day8/target/debug/day8",
+			"windows": {
+			  "program": "${workspaceFolder}/day8/target/debug/day8.exe"
+			},
+			"cwd": "${workspaceFolder}/day8",
+			"stopOnEntry": false,
+			"sourceLanguages": [
+			  "rust"
+			]
 		}
 	]
 }
